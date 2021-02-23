@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>BioData</title>
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <form action="" method="GET">
+        <fieldset>
+            <legend>Personal Information</legend>
+            FirstName : <input type="text" placeholder="First Name">
+            LastName : <input type="text" placeholder="Last Name">
+            <br><br>
+            Male : <input type="radio" name="gender" value="male"> 
+            Female : <input type="radio" name="gender" value="female"> 
+            Other : <input type="radio" name="gender" value="other"> 
+            <br><br>
+            Date of Birth : <input type="date" name="dob"  placeholder="mm/dd/yyyy" value="other"> 
+            <br><br>
+            Email : <input type="email" name="email"  placeholder="Enter Your Email"> 
+            <br><br>
+            Phone : <input type="tel" id="phone" name="phone"  placeholder="+91" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            <br><br>
+            Height : <input type="text" placeholder="Height in feet">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Education</legend>
+            School Name : <input type="text" placeholder="School Name">
+            <br><br>
+            Class : <input type="text" placeholder="Enter Class">
+            <br><br>
+            Stream : <select name="Stream" id="Stream">
+                <option value="Medical">Medical</option>
+                <option value="Non-Medical">Non-Medical</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Arts">Arts</option>
+              </select> 
+            <br><br>
+            Marksheet : <input type="file" name="Marksheet"> 
+        </fieldset>
+    </form>
+</body>
+</html>
